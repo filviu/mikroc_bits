@@ -10,6 +10,7 @@ Code is tested on the EasyPic5 board, but should work on other boards and / or c
 Please note that I only checked for the first 4 channels in the adc_read2 function. It’s easy to check for the other ADC channels using this table:
 
 CHS3 | CHS2 |	CHS1 |	CHS0 |	Channel |	Pin
+---|---|---|---|---|---
 0 |	0 |	0 |	0 |	0 |	RA0/AN0
 0 |	0 |	0 |	1 |	1 |	RA1/AN1
 0 |	0 |	1 |	0 |	2 |	RA2/AN2
